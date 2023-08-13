@@ -1,0 +1,27 @@
+﻿  doge.cpp
+C:\Users\Thanh Gay\Desktop\FlappyDoge\FlappyDoge\doge.cpp(57,49): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+C:\Users\Thanh Gay\Desktop\FlappyDoge\FlappyDoge\doge.cpp(80,49): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+  game.cpp
+C:\Users\Thanh Gay\Desktop\FlappyDoge\FlappyDoge\game.cpp(118,18): warning C4267: 'initializing': conversion from 'size_t' to 'signed char', possible loss of data
+C:\Users\Thanh Gay\Desktop\FlappyDoge\FlappyDoge\game.cpp(164,62): warning C4244: 'argument': conversion from 'double' to 'short', possible loss of data
+C:\Users\Thanh Gay\Desktop\FlappyDoge\FlappyDoge\game.cpp(172,18): warning C4267: 'initializing': conversion from 'size_t' to 'signed char', possible loss of data
+C:\Users\Thanh Gay\Desktop\FlappyDoge\FlappyDoge\game.cpp(234,18): warning C4267: 'initializing': conversion from 'size_t' to 'signed char', possible loss of data
+C:\Users\Thanh Gay\Desktop\FlappyDoge\FlappyDoge\game.cpp(280,54): warning C4244: 'argument': conversion from 'double' to 'short', possible loss of data
+  land.cpp
+  lib.cpp
+C:\Users\Thanh Gay\Desktop\FlappyDoge\FlappyDoge\lib.cpp(70,32): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+C:\Users\Thanh Gay\Desktop\FlappyDoge\FlappyDoge\lib.cpp(71,33): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+  main.cpp
+  pipe.cpp
+  sound.cpp
+  Generating Code...
+  FlappyDoge.vcxproj -> C:\Users\Thanh Gay\Desktop\FlappyDoge\Debug\FlappyDoge.exe
+  ..\SDL\lib\x86\msvcp140d.dll
+  ..\SDL\lib\x86\SDL2.dll
+  ..\SDL\lib\x86\SDL2_image.dll
+  ..\SDL\lib\x86\SDL2_mixer.dll
+  ..\SDL\lib\x86\SDL2_ttf.dll
+  ..\SDL\lib\x86\ucrtbased.dll
+  ..\SDL\lib\x86\vcruntime140.dll
+  ..\SDL\lib\x86\vcruntime140d.dll
+          8 file(s) copied.
