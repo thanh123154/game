@@ -20,10 +20,10 @@ int main(int argc, char* argv[])
     bool isSound = 1;
     bool isDark = 0;
 
-    while(!g.isQuit())
+    while (!g.isQuit())
     {
         frameStart = SDL_GetTicks();
-        
+
         if (g.isDie())
         {
             if (isMenu) {
@@ -31,7 +31,7 @@ int main(int argc, char* argv[])
                 g.shiba.render();
             }
             g.userInput.Type = game::input::NONE;
-            while(g.isDie() && !g.isQuit())
+            while (g.isDie() && !g.isQuit())
             {
                 g.takeInput();
                 if (isMenu == 1 && g.userInput.Type == game::input::PLAY)
@@ -42,6 +42,7 @@ int main(int argc, char* argv[])
                     }
                     g.userInput.Type = game::input::NONE;
                 }
+
                 if (!isDark) g.renderBackground();
                 else g.renderBackgroundNight();
                 g.pipe.render();
@@ -59,7 +60,7 @@ int main(int argc, char* argv[])
                 else
                 {
                     g.pipe.init();
-                    g.shiba.init(isDark); 
+                    g.shiba.init(isDark);
                     g.shiba.render();
                     g.renderMessage();
                     if (g.userInput.Type == game::input::PLAY)
@@ -80,14 +81,14 @@ int main(int argc, char* argv[])
 
             if (g.userInput.Type == game::input::PAUSE)
             {
-                isPause = abs(1 - isPause);
+                isPause = !isPause;
                 g.userInput.Type = game::input::NONE;
             }
 
             if (isPause == 0 && g.userInput.Type == game::input::PLAY)
             {
                 if (isSound) g.sound.playBreath();
-                g.shiba.resetTime(); 
+                g.shiba.resetTime();
                 g.userInput.Type = game::input::NONE;
             }
 
